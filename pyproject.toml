@@ -1,0 +1,23 @@
+[project]
+name = "tpi2-termografia-restauracion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "diffusers>=0.42.1",
+    "gradio>=6.31.0",
+    "numpy>=2.5.4",
+    "pillow>=12.3.0",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
+    "transformers>=5.22.1",
+]
+
+[project.scripts]
+tpi2-termografia-restauracion = "tpi2_termografia_restauracion:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
