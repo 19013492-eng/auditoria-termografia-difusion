@@ -1,0 +1,13 @@
+# Entorno virtual
+.venv/
+
+# Bytecode y cache de Python
+__pycache__/
+*.pyc
+
+# Cache de descargas y modelos (Hugging Face, uv, etc.)
+.cache/
+
+# Archivos de imagen generados temporalmente (ignora todos excepto los de assets)
+*.png
+!assets/**
