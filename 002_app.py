@@ -77,7 +77,8 @@ ejemplos_disponibles = [[r] for r in rutas_ejemplos if r.lower().endswith((".png
 
 with gr.Blocks(title="Comparativa de Modelos de Difusión en Termografía") as demo:
     gr.Markdown("""
-    # 🔬 Banco de Ensayos: Comparativa de Difusión en Termografía Industrial
+    # 🔬 # Evaluación de Imágenes Termográficas con Difusión
+
     **Evaluación de Fidelidad Metrológica: Stable Diffusion v1.5 vs. SD-Turbo + Auditoría MobileNetV2**  
     *Herramienta para evaluar la preservación de isotermas reales sobre capturas Testo 875-1i.*
     """)
